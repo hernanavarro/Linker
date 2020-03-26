@@ -12,7 +12,29 @@
 3. Notificar cambios en los links del grupo. Ejemplo
 	- Novedades en los portales de noticias
 	- Actualización del Coronavirus en diferentes países
+	
+## REQUERIMIENTOS
+- Permitir crear un usuario con email y contraseña
+- Permitir cargar links a sitios externos
+- Generar un único link hash para cada usuario (/username123)
+- Permitir personalizar el cuerpo del mini-sitio
+    - El usuario puede elegir de un conjunto de temas
+- Permitir personalizar cada link
+    - El usuario puede agregar una foto
+    - El usuario puede cambiar los colores de fondo y de texto
+    - El usuario puede agregar una descripción
 
+## REQUERIMIENTOS CANDIDATOS
+- Bloque multi-tipo (link, video, social networks group)
+- Fondo con imagen
+- Permitir que cada usuario "siga" a otro (follower) para recibir notificaciones 
+- etc
+
+
+## NIVELES DE USUARIOS
+- User
+- Admin
+    
 ## _INSPIRACION_
 - [linktr.ee](https://linktr.ee)
 - [taplink.at](https://taplink.at/)
