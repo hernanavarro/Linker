@@ -1,4 +1,4 @@
-# NOMBRE:  [mergelink] ¿?
+# Linkium
 ### **"Un link = todo lo que necesitas"**
 
 ## UTILIDADES
@@ -23,6 +23,7 @@
     - El usuario puede agregar una foto
     - El usuario puede cambiar los colores de fondo y de texto
     - El usuario puede agregar una descripción
+- Crear una página de presentación de __Linkium__ como producto
 
 ## REQUERIMIENTOS CANDIDATOS
 - Bloque multi-tipo (link, video, social networks group)
