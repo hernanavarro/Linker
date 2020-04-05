@@ -1,10 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SignUp from './components/SignUp';
+import SignInSide from "./components/SignInSide";
 
 function App() {
   return (
     <div className="App">
+      <div>
+        <SignUp/>
+        <SignInSide/>
+      </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
