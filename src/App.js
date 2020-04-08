@@ -16,18 +16,30 @@ const myTheme = createMuiTheme({
         MuiCssBaseline: {
             '@global': {
                 body: {
-                    backgroundColor: '#88f2a7',
+                    backgroundColor: '#353755',
                 },
             },
         },
     },
+    palette: {
+        primary: {
+            main: '#ffffff',
+            light: '#353755'
+        },
+        secondary: {
+            main: '#5bd3c7',
+            light: '#e0e4ee',
+        }
+
+    }
 });
 
 function App() {
     return (
         <MuiThemeProvider theme={myTheme}>
             <CssBaseline/>
-            <NewSignIn/>
+            <SignInSide/>
+            <SignUp/>
         </MuiThemeProvider>
     );
 }

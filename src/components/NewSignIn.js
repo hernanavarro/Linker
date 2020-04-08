@@ -74,7 +74,6 @@ export default function NewSignIn() {
                     </Grid>
                 </Grid>
 
-
                 <form className={classes.form} noValidate>
                     <TextField
                         variant="outlined"

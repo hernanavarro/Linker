@@ -15,7 +15,7 @@ import Container from '@material-ui/core/Container';
 
 function Copyright() {
     return (
-        <Typography variant="body2" color="textSecondary" align="center">
+        <Typography variant="body2" color="primary" align="center">
             {'Copyright © '}
             <Link color="inherit" href="https://material-ui.com/">
                 Your Website
@@ -56,7 +56,7 @@ export default function SignUp() {
                 <Avatar className={classes.avatar}>
                     <LockOutlinedIcon />
                 </Avatar>
-                <Typography component="h1" variant="h5">
+                <Typography component="h1" variant="h5" color="primary">
                     Sign up
                 </Typography>
                 <form className={classes.form} noValidate>
@@ -107,7 +107,7 @@ export default function SignUp() {
                                 autoComplete="current-password"
                             />
                         </Grid>
-                        <Grid item xs={12}>
+                        <Grid item xs={12} >
                             <FormControlLabel
                                 control={<Checkbox value="allowExtraEmails" color="primary" />}
                                 label="I want to receive inspiration, marketing promotions and updates via email."
@@ -118,7 +118,7 @@ export default function SignUp() {
                         type="submit"
                         fullWidth
                         variant="contained"
-                        color="primary"
+                        color="secondary"
                         className={classes.submit}
                     >
                         Sign Up
